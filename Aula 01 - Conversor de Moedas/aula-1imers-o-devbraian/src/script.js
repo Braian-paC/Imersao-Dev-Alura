@@ -1,22 +1,22 @@
-alert("Por favor, utilize os botões!")
+console.log("Tá olhando o que aqui no console? APERTA O BOTÃO")
 
 function ouro_prata(){
   let ouro = prompt("Digite o valor: ");
-  ouro = Number(ouro);
+  ouro = parseFloat(ouro);
   let prata = 12*ouro;
-  alert(ouro.toFixed(2)+" moedas de ouro equivalem a "+prata.toFixed(2)+" moedas de prata!");
+  alert(ouro+" moedas de ouro equivalem a "+prata+" moedas de prata!");
 }
 
 function prata_cobre(){
   let prata = prompt("Digite o valor: ");
-  prata = Number(prata);
+  prata = parseFloat(prata);
   let cobre = 20*prata;
-  alert(prata.toFixed(2)+" moedas de prata equivalem a "+cobre.toFixed(2)+" moedas de cobre!");
+  alert(prata+" moedas de prata equivalem a "+cobre+" moedas de cobre!");
 }
 
 function cobre_ouro(){
   let cobre = prompt("Digite o valor: ");
   cobre = parseFloat(cobre);
   let ouro = 0.00446*cobre;
-  alert(cobre.toFixed(2)+" moedas de cobre equivalem a "+ouro.toFixed(2)+" moedas de ouro!");
+  alert(cobre+" moedas de cobre equivalem a "+ouro+" moedas de ouro!");
 }
