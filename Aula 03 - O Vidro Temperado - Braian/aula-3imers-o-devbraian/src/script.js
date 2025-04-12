@@ -1,7 +1,7 @@
-alert("Rode o código pelo botão 'Play'")
-rodada = 1
-vitoria = 0
+console.log("Rode o código pelo botão 'Play'")
 function VidroTemperado(){
+  rodada = 1
+  vitoria = 0
   while (rodada <= 3){
     rodada += 1
     escolhaJogador = prompt("Nível "+(rodada-1)+", escolha um vidro (1, 2 ou 3)")
