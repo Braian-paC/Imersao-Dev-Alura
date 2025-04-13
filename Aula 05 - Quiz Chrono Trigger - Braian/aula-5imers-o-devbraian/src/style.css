@@ -92,6 +92,26 @@ p {
   background: #19caca;
   font-weight: 600;
 }
+/* Botão de start */
+#start-button {
+  margin-top: 100px;
+  text-align: center;
+  border: none;
+  width: 45%;
+  height: 7rem;
+  margin-left: 120px;
+  padding: 5px;
+  font-size: 40px;
+  font-family: sans-serif;
+  background: #ff1b7b;
+  color: white;
+}
+
+#start-button:hover {
+  background: #19caca;
+  font-weight: 600;
+  cursor: pointer;
+}
 
 /* Tela de fim do jogo */
 .fim {
